@@ -13,3 +13,73 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <title>Assignment IV</title>
+</head>
+<body>
+    <header>
+        <h1 class="main-heading">The Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <main>
+        <section class="section">
+            <hr>
+            <header class="container-header">
+                <h2 class="exercise-heading">Exercise1</h2>
+            </header>
+            <div class="box-container">
+                <div class="box"></div>
+            </div>
+            <div class="container">
+                <div class="circle circle-content"></div>
+                <span>Content</span>
+                <div class="circle circle-padding"></div>
+                <span>Padding</span>
+                <div class="circle circle-border"></div>
+                <span>Border</span>
+                <div class="circle circle-margin"></div>
+                <span>Margin</span>
+            </div>
+        </section>
+        <section>
+            <hr>
+            <header class="container-header">
+                <h2 class="exercise-heading">Exercise2</h2>
+                <h3>no border on these boxes.</h3>
+            </header>
+            <div class="parent-container">
+                <div class="child-container"></div>
+                <div class="child-container"></div>
+                <div class="child-container"></div>
+            </div>
+        </section>
+        <section>
+            <hr>
+            <header class="container-header">
+                <h3>1px border on these boxes.</h3>
+            </header>
+            <div class="parent-container parent-border">
+                <div class="child-container with-border"></div>
+                <div class="child-container with-border"></div>
+                <div class="child-container with-border"></div>
+            </div>
+        </section>
+        <section>
+            <hr>
+            <header class="container-header">
+                <h3>1px border on these boxes but they are in same line.</h3>
+            </header>
+            <div class="parent-container parent-width">
+                <div class="child-container with-border"></div>
+                <div class="child-container with-border"></div>
+                <div class="child-container with-border"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
